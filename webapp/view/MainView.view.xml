@@ -83,22 +83,22 @@
             </columns>
  
                 <items>
-    <ColumnListItem id="cli1" vAlign="Middle">
-        <cells>
-            <Text id="txtProduct1" text="iPhone 14 Pro Max" />
-            <Text id="txtQty1" text="2" />
-            <Text id="txtPrice1" text="$2000" />
-        </cells>
-    </ColumnListItem>
+                    <ColumnListItem id="cli1" vAlign="Middle">
+                        <cells>
+                        <Text id="txtProduct1" text="iPhone 14 Pro Max" />
+                        <Text id="txtQty1" text="2" />
+                        <Text id="txtPrice1" text="$2000" />
+                        </cells>
+                    </ColumnListItem>
 
-    <ColumnListItem id="cli2" vAlign="Middle">
-        <cells>
-            <Text id="txtProduct2" text="Louis Vuitton Speedy" />
-            <Text id="txtQty2" text="1" />
-            <Text id="txtPrice2" text="$14000" />
-        </cells>
-    </ColumnListItem>
-</items>
+                    <ColumnListItem id="cli2" vAlign="Middle">
+                         <cells>
+                         <Text id="txtProduct2" text="Louis Vuitton Speedy" />
+                         <Text id="txtQty2" text="1" />
+                         <Text id="txtPrice2" text="$14000" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
             </Table>
         </VBox>
  
