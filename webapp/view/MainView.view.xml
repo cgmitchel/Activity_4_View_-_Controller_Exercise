@@ -38,9 +38,9 @@
                     <Label id="idLblMOP" text="{i18n>modeOfPaymentLbl}" />
                     <Select id="idSelMOP" forceSelection="false" change="onChangeMOP">
                         <items>
-                            <core:Item key="COD" text="Cash on Delivery" />
-                            <core:Item key="CC" text="Credit Card" />
-                            <core:Item key="GCASH" text="Gcash" />
+                            <core:Item id="COD" text="Cash on Delivery" />
+                            <core:Item id="CC" text="Credit Card" />
+                            <core:Item id="GCASH" text="Gcash" />
                         </items>
                     </Select>
 
@@ -71,24 +71,24 @@
                 </headerToolbar>
 
                 <columns>
-                    <Column><Text text="Item" /></Column>
-                    <Column><Text text="Quantity" /></Column>
-                    <Column><Text text="Price" /></Column>
+                    <Column id="idCol1"><Text id="idColText1" text="Item" />
+                    <Text id="idColText2" text="Quantity" /></Column>
+                    <Column id="idCol3"><Text id="idColText3" text="Price" /></Column>
                 </columns>
 
                 <items>
-                    <ColumnListItem vAlign="Middle">
+                   <ColumnListItem id="idColListItem1" vAlign="Middle">
                         <cells>
-                            <Text text="iPhone 14 Pro Max" />
-                            <Text text="2" />
-                            <Text text="$2000" />
+                            <Text id="idText1" text="iPhone 14 Pro Max" />
+                            <Text id="idText2" text="2" />
+                            <Text id="idText3" text="$2000" />
                         </cells>
                     </ColumnListItem>
-                    <ColumnListItem vAlign="Middle">
+                    <ColumnListItem id="idColListItem2" vAlign="Middle">
                         <cells>
-                            <Text text="Louis Vuitton Speedy" />
-                            <Text text="1" />
-                            <Text text="$14000" />
+                            <Text id="idText4" text="Louis Vuitton Speedy" />
+                            <Text id="idText5" text="1" />
+                            <Text id="idText6" text="$14000" />
                         </cells>
                     </ColumnListItem>
                 </items>
